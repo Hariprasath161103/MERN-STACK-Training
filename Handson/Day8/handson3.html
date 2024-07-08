@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar bg-dark p-3">
+        <ul class="list-unstyled nav nav-pills">
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="text-white">
+            <h3>Login</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container row border-1 border-dark border">
+            <div class="col-md-3 container bg-white text-center">
+                <h3>Our Branches</h3>
+                <div class="jumbotron ">
+                    <div class="card p-md-4 mt-3">Coimbatore</div>
+                    <div class="card p-md-4 mt-3">Chennai</div>
+                </div>
+            </div>
+            <div class="col-md-6 container bg-white text-center">
+                <h3>Welcome</h3>
+                <div class="jumbotron">
+                    <div class="p-md-4 mt-3">
+                        <p>We are <strong>No1</strong> company in the market. we provide a best doftwares and services
+                        </p>
+                    </div>
+                    <div class="p-md-4 mt-3"></div>
+                </div>
+            </div>
+            <div class="col-md-3 container bg-white text-center">
+                <h3>Our Services</h3>
+                <div class="jumbotron">
+                    <div class="card p-md-4 mt-3">Cloud</div>
+                    <div class="card p-md-4 mt-3">Websites</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark p-3">
+        <footer class="text-center text-white">This is footer</footer>
+    </div>
+    <div class="container bg-dark p-3 mt-4">
+        <button class="btn btn-primary" onclick="show()">click</button>
+        <div class="alert alert-success m-4
+        " style="display: none;" id="alr"> Sucsess !!</div>
+    </div>
+    </div>
+    <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Click</button>
+    <div id="demo" class="collapse">
+        <h1>Ashik Html puli</h1>
+    </div>
+    <div class="dropdown drop-down-menu-end">
+        <button type="button" class="dropdown-toggle btn btn-primary" data-bs-toggle="dropdown">Select...</button>
+        <ul class="dropdown-menu">
+            <li><a href="" class="dropdown-item">Home</a></li>
+            <li><a href="" class="dropdown-item">About</a></li>
+            <li><a href="" class="dropdown-item">Contact</a></li>
+        </ul>
+
+        <script>
+            let c = 0;
+            function show() {
+                c = c + 1;
+
+                if (c % 2 != 0) {
+                    document.getElementById("alr").style.display = 'block'
+                }
+                else {
+                    document.getElementById("alr").style.display = 'none'
+                }
+            }
+        </script>
+</body>
+
+</html>

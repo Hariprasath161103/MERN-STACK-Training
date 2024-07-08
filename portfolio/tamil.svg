@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    sodipodi:docname="New document 1"
+    viewBox="0 0 100 100"
+    version="1.1"
+    inkscape:version="0.48.3.1 r9886"
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="19"
+      fit-margin-left="0"
+      pagecolor="#ffffff"
+      fit-margin-top="0"
+      inkscape:window-maximized="0"
+      inkscape:zoom="2.8100001"
+      inkscape:window-x="0"
+      inkscape:window-height="777"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="-34.895336"
+      inkscape:cy="87.031916"
+      fit-margin-right="0"
+      fit-margin-bottom="0"
+      inkscape:window-width="1276"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(324.29 -270.93)"
+    >
+    <path
+        id="path4008"
+        sodipodi:rx="127.14286"
+        sodipodi:ry="127.14286"
+        style="fill:#0088aa"
+        sodipodi:type="arc"
+        d="m371.43 553.79c0 70.219-56.924 127.14-127.14 127.14-70.219 0-127.14-56.924-127.14-127.14 0-70.219 56.924-127.14 127.14-127.14 70.219 0 127.14 56.924 127.14 127.14z"
+        transform="matrix(.39326 0 0 .39326 -370.35 103.15)"
+        sodipodi:cy="553.79077"
+        sodipodi:cx="244.28572"
+    />
+    <g
+        id="text4010"
+        style="fill:#ffffff"
+        transform="translate(-396.8 -140.09)"
+      >
+      <path
+          id="path3270"
+          inkscape:connector-curvature="0"
+          d="m152.13 444.38-1.7305 7.2548-2.4626 11.914-1.5974 7.8538-0.59902 2.7954-0.33279 1.3977c-0.66563 2.7954-1.9746 4.1931-3.9269 4.1931-0.84311-0.00001-1.4199-0.0666-1.7305-0.19968-0.26627-0.13312-0.46595-0.37716-0.59901-0.73213l0.0666-0.73213c-0.00004-0.66558 0.3993-2.5958 1.198-5.7905 0.79864-3.1948 1.198-5.1471 1.198-5.8571-0.00005-0.75431-0.37721-1.2868-1.1315-1.5974-0.71-0.35496-1.5531-0.53244-2.5292-0.53246-1.3312 0.00002-3.1948 0.99838-5.5908 2.9951-3.1504 2.6179-5.7684 4.5037-7.8538 5.6574-4.0822 2.0411-8.4306 3.0616-13.045 3.0616-4.7922 0-9.0075-0.95399-12.646-2.862-3.9491-2.0855-5.9236-4.8143-5.9236-8.1866 0-1.1536 0.26623-2.0189 0.79869-2.5958 0.57683-0.62119 1.309-0.93179 2.1964-0.9318h34.943c1.0205-1.0649 1.8192-2.2851 2.3961-3.6607 0.62116-1.3755 0.93176-2.8176 0.93181-4.3262-0.00005-1.7748-0.44376-3.3057-1.3312-4.5925-0.79873-1.3311-2.019-2.2851-3.6607-2.862l0.19967 2.5958 0.26623 1.9302c-0.00004 1.6862-0.5325 3.3723-1.5974 5.0584-1.3756 1.908-3.3501 2.862-5.9236 2.862-1.908 0.00001-3.5941-0.79868-5.0584-2.3961-1.3755-1.6417-2.0633-3.2613-2.0633-4.8587-0.00002-2.3073 0.97615-4.304 2.9285-5.9902 2.2629-1.9967 5.258-2.995 8.9853-2.9951 3.7272 0.00004 6.7001 1.0206 8.9187 3.0616 2.2629 1.9968 3.3944 4.7256 3.3944 8.1866l-0.59902 3.3279c-0.35501 1.908-0.70999 3.1726-1.0649 3.7938l0.59902 0.66557 1.9967 0.13312c1.9523 0.00001 3.5275-3.3944 4.7256-10.183 0.62115-4.1265 1.3755-7.0994 2.263-8.9187h4.9918v2.0633m-27.954 6.0567c-0.00003-0.57681-0.17752-1.2424-0.53246-1.9967-0.35501-0.79866-0.86528-1.5974-1.5308-2.3961l-2.3295 2.4626c-0.70998 0.9762-1.065 1.9746-1.0649 2.9951-0.00002 0.9762 0.17746 1.664 0.53246 2.0633 0.39932 0.39937 0.93178 0.6656 1.5974 0.79869 0.8874 0.00003 1.6639-0.39932 2.3295-1.198 0.66555-0.79867 0.99834-1.7083 0.99837-2.7289m2.9285 15.242-1.2646-0.86525h-25.358c-0.70995 0.00001-1.309 0.15531-1.7971 0.4659l-1.5308 1.198c1.198 1.9967 3.0173 3.5276 5.4577 4.5925 2.3961 0.84307 4.659 1.2646 6.7889 1.2646 3.4166 0.00001 6.3895-0.46589 8.9187-1.3977 2.5292-0.9318 5.4577-2.6845 8.7856-5.258"
+      />
+    </g
+    >
+    <path
+        id="path4014"
+        sodipodi:rx="60"
+        sodipodi:ry="60"
+        style="stroke:#ffffff;stroke-width:7.2727;fill:none"
+        sodipodi:type="arc"
+        d="m565 503.36c0 33.137-26.863 60-60 60s-60-26.863-60-60 26.863-60 60-60 60 26.863 60 60z"
+        transform="matrix(.6875 0 0 .6875 -621.47 -25.128)"
+        sodipodi:cy="503.36218"
+        sodipodi:cx="505"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >tamil</dc:title
+        >
+        <dc:date
+          >2012-03-20T22:47:17</dc:date
+        >
+        <dc:description
+          >colour mod</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/168966/tamil-by-eternaltyro</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >eternaltyro</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >tamil</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
