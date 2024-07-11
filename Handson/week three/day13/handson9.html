@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Bootstrap form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Adi-Online Shopping</h1>
+    </header>
+    <form action="">
+        <table border="3" class="tab">
+
+            <tr>
+                <td><label for="name">Customer Name</label></td>
+                <td><input type="text" id="name" placeholder="Enter Customer Name"></td>
+            </tr>
+            <tr>
+                <td><label for="number">Mobile Number</label></td>
+                <td><input type="number" placeholder="Enter Your mobile no" id="number"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email ID</label></td>
+                <td><input type="gmail" placeholder="Enter Your Email" id="mail"></td>
+            </tr>
+            <tr>
+                <td><label for="addrs">Billing Address</label></td>
+                <td><textarea name="" id="addrs" placeholder="Enter Your Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="drop">Choose Product</label></td>
+                <td>
+                    <select name="product" id="">
+
+                        <option>TV</option>
+                        <option>Ac</option>
+                        <option>FAN</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="quant">Enter Quantity</label></td>
+                <td><input type="number" id="quant" placeholder="Enter Quantity"></td>
+            </tr>
+            <tr>
+                <td><label for="payment">Payment Mode</label></td>
+                <td><select name="payment" id="payment">
+                        <option value="">COD</option>
+                        <option value="">CARD</option>
+                        <option value="">ONLINE PAYMENT</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="bag">Bag Total</label></td>
+                <td><input type="number" id="bag"></td>
+            </tr>
+            <tr>
+                <td><label for="coupan">Coupan Code</label></td>
+                <td><input type="text" id="coupan"></td>
+            </tr>
+            <tr>
+                <td><label for="deliv">Delivery Option</label></td>
+                <td><input type="radio" name="del">Express <input type="radio" name="del">Standard</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="Agree">
+                    <label for="Agree">I Agree to the Terms & Conditions</label>
+                </td>
+            </tr>
+            <tr>
+                <td><button>clear</button></td>
+                <td><input type="submit" placeholder="payment"></td>
+            </tr>
+        </table>
+    </form>
+    <link rel="stylesheet" href="adi.css">
+</body>
+<script src="script.js"></script>
+
+</html>

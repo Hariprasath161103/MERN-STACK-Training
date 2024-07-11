@@ -1,0 +1,58 @@
+/*cammand line for css*/
+/*universal selector : */
+
+* {
+  padding: 10px;
+}
+
+/* class selector :
+//we can use multiple times */
+
+.classname {
+  color: green;
+}
+
+/* Id selector :
+//Id should be unique */
+
+#idname {
+  color: blue;
+}
+
+/* Html selector :
+
+1.tag selector or type selector. */
+
+/* p {
+  color: aqua;
+} */
+
+/* Attribute selectors : */
+
+input[type="text"] {
+  color: blue;
+  width: 10px;
+}
+
+/* whereever we have a  class name starts with btn */
+
+[class~="btn"] {
+  color: darkkhaki;
+}
+
+main {
+  background-color: tomato;
+}
+
+/* div p {
+  color: green;
+} */
+
+
+.cant h1+p{
+    color: blue;
+}
+
+li:nth-child(odd){
+    background-color: tomato;
+}

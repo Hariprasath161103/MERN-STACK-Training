@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html 5 tags</title>
+</head>
+<body>
+    <section id="sec">
+        <b>Hello</b><br>
+        <strong>Welcome</strong>
+        <p>i am <i>Hariprasath</i></p>
+        <p>i am <em>Hariprasath</em></p>
+        <mark>Marked text</mark><br>
+        <del>Deleted text</del><br>
+        <ins style="color: hsl(908,60%,50%);">Inserted text</ins>
+        <h1>10<sub>5</sub></h1>
+        <h1>10<sup>9</sup></h1>  
+        <input type="color">   
+    </section>
+    <select id="clr" onchange="clrc()">
+        <option value="black">black</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+    </select>
+    <input list="data">
+    <datalist id="data">
+        <option>red</option>
+        <option>blue</option>
+    </datalist>
+    
+    <script>
+        function clrc(){
+document.getElementById("sec").style.color=document.getElementById("clr").value
+        }
+    </script>
+</body>
+</html>

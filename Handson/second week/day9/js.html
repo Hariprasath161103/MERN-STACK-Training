@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container p-3">
+        <form action="" class="" onsubmit="return false">
+            <div class="form-floating was-validated">
+                <input type="text" id="text" class="form-control" placeholder="" required>
+                <label for="text" class="form-label">Input</label>
+                <button class="btn btn-primary mt-3" onclick="display()">Click</button>
+                <h1 id="res">Result</h1>
+            </div>
+            <div class="container bg-info p-3">
+                <input type="number" id="num1">
+                <input type="number" id="num2">
+                <button onclick="calc()" class="btn btn-primary dropdown-toggle mt-3 " data-bs-target="#output,#item"
+                    data-bs-toggle="collapse">Calculate</button>
+                <h1 id="output"></h1>
+
+            </div>
+            <div>
+                <button onclick="pro()" class="btn btn-primary mt-3">prompt</button>
+                <h1 id="pro" class="text-success"></h1>
+            </div>
+            <div>
+                <input type="text" oninput="change()" id="inp" class="form-control" placeholder="Enter any color🎨">
+                <h1 id="change" style="transition: 0.3s;"></h1>
+
+            </div>
+
+        </form>
+
+    </div>
+    <script>
+        function display() {
+            var dat = document.getElementById("text").value
+            console.log(dat)
+            document.getElementById("res").innerText = dat
+        }
+        var calc = () => {
+            let a = document.getElementById("num1").value
+            let b = document.getElementById("num2").value
+            let res = parseInt(a) + parseInt(b)
+            document.getElementById("output").innerText = res
+        }
+        var pro = () => {
+            let p = prompt("Enter the text")
+            document.getElementById("pro").innerHTML = "Prompt text : " + p;
+        }
+        var change = () => {
+            document.getElementById("change").innerHTML = document.getElementById("inp").value
+            document.getElementById("change").style.color = document.getElementById("inp").value
+        }
+    </script>
+</body>
+
+</html>

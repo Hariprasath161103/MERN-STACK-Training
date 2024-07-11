@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handson3</title>
+  </head>
+  <body>
+    <main>
+      <form action="" target="_self" novalidate class="formm">
+        <h2>HandsOn 3</h2>
+        <br />
+        <label for="code">Enter the course code</label>
+        <input
+          type="text"
+          id="code"
+          required
+          pattern="[A-Z]{3}[0-9]{2}[A-Z]{3}[0-9]{3}"
+        /><br />
+        <p>
+          The course code should be like this format :
+          <strong><ins>"CBE19CST019"</ins></strong>
+        </p>
+        <br />
+        <label for="colr">Enter the color code</label>
+        <input type="text" id="colr" pattern="#[a-fA-F0-9]{6}" /><br /><br />
+        <label for="phn">Enter Phone number</label>
+        <input
+          type="text"
+          id="phn"
+          pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{3}"
+        /><br /><br />
+        <label for="url">Enter your url</label>
+        <input
+          type="text"
+          id="url"
+          pattern="https\:\/\/www[.]{1}[a-z]+[.]{1}com"
+        /><br /><br />
+        <label for="html">HTML</label>
+        <input type="radio" id="html" name="favl" />
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="favl" /><br /><br />
+        <label for="c1">Book reading</label>
+        <input type="checkbox" id="c1" name="read books" value="hobby" />
+        <label for="c2">watching Tv</label>
+        <input
+          type="checkbox"
+          id="c2"
+          name="Tv watching"
+          value="hobby"
+        /><br /><br />
+        <select name="Languages" id="">
+          <!--<select name="Languages" id="" multiple>-->
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JS</option></select
+        ><br /><br />
+        <fieldset name="add" id="Address">
+          <legend>Address</legend>
+          <textarea name="Address"></textarea>
+        </fieldset>
+
+        <input
+          type="submit"
+          onclick="alert('Eda Mone...! Happy alle..!')"
+          value="ok"
+          id="but"
+        />
+      </form>
+      <form
+        action=""
+        class="formm2"
+        oninput="x.value=parseInt(a.value)+parseInt(b.value),range1.value=parseInt(range.value)"
+      >
+        <input type="number" id="a" />
+        <input type="number" id="b" /><br />
+        <output name="x" for="a b"></output><br /><br />
+        <input type="range" id="range" /><br />
+        <output name="range1" for="range"></output><br />
+        <input type="date" />
+        <input type="time" />
+        <input type="url" />
+        <input type="submit" value="ok" />
+      </form>
+      <form action="h1.html" method="post" class="formm2" target="_blank">
+        <pre>
+<input type="text" >
+<input type="email">
+<input type="hidden" name="uid" value="1">
+<input type="submit">
+
+        </pre>
+        <!--text as a link-->
+        <a href="h1.html">HandsOn</a>
+        <!--button as a link-->
+        <button onclick="document.location='h1.html'">Handson</button>
+        <!--Link to mail-->
+        <a href="mailto:hariprasaths019@gmail.com">Contact Me</a>
+        
+      </form>
+      <iframe src="https://www.bing.com/search?pglt=41&q=iframe+in+html&cvid=0b50e779fdc044b5b821feacbdf2f7bc&gs_lcrp=EgZjaHJvbWUqBggAEAAYQDIGCAAQABhAMgYIARAAGEAyBggCEAAYQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDQzMTFqMGoxqAIIsAIB&FORM=ANNTA1&PC=ASTS" frameborder="4" width="700" height="400"></iframe>
+    </main>
+    <link rel="stylesheet" href="h3.css" />
+  </body>
+</html>

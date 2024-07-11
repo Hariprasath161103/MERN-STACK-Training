@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mcant {
+  height: 50px;
+}
+.navbar {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 20px 10px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.navbar a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 2px;
+}
+.cant {
+  text-align: center;
+  border: 9px solid green;
+  width: fit-content;
+  margin: 40px 0 0 40px;
+  border-radius: 7px;
+  padding: 20px 40px 120px 40px;
+  color: black;
+  position: relative;
+}
+.obs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: rgb(158, 16, 229);
+  border-radius: 0 0 0 5px;
+  transition: color 0.7s;
+}
+.cant:hover .obs {
+  color: whitesmoke;
+}
+/* span by :default will not change
+ the width.to make this as block level
+ element display:block */
+span {
+  background-color: aqua;
+  display: block;
+  width: 200px;
+}
+.can {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px;
+  position: relative;
+}
+.tag {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  backdrop-filter: blur(5px);
+  border-radius: 0 0 10px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.3s;
+}
+.tag:hover {
+  backdrop-filter: blur(0px);
+}
+
+.item1 {
+  width: 300px;
+  height: 100px;
+  background-color: darkcyan;
+}
+.item2 {
+  width: 190px;
+  height: 100px;
+  background-color: rgb(31, 228, 74);
+}
+.item3 {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(27, 98, 175);
+}
+.item4 {
+  width: 250px;
+  height: 100px;
+  background-color: rgb(235, 237, 101);
+}
+.item5 {
+  width: 400px;
+  height: 100px;
+  background-color: rgb(226, 207, 43);
+}

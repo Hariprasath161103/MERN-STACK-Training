@@ -1,0 +1,37 @@
+
+header {
+  font-size: 24px;
+  color: blue;
+}
+p {
+  font-size: larger;
+  color: blueviolet;
+}
+a{
+    font-size: 20px;
+
+}
+[class~=inputs]{
+    border: 2px solid red;
+}
+
+
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+}
+button:hover{
+    background-color: grey;
+    color: black;
+}
+h1,h2{
+    color: blueviolet;
+}
+
+ul li{
+    font-weight: bold;
+    list-style: none;
+}

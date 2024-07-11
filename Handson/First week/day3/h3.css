@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  display: grid;
+  gap: 50px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(24, 147, 106);
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+.formm {
+  margin: 10px;
+  width: fit-content;
+  padding: 30px;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+  box-shadow: 10px 7px 6px black;
+  backdrop-filter: blur(5px);
+}
+.formm2 {
+  margin: 10px;
+  width: fit-content;
+  padding: 30px;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+  box-shadow: 10px 7px 6px black;
+  backdrop-filter: blur(5px);
+}
+form input {
+  padding: 5px;
+  margin: 2px;
+  border: none;
+  border-radius: 5px;
+}
+#Address {
+  text-align: start;
+  border: none;
+}
+
+#Address textarea {
+  min-width: 400px;
+  min-height: 100px;
+}
+#but {
+  width: 60px;
+  padding: 5px;
+}
